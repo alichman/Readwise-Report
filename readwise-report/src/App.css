@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+
+  &>div {
+    margin: 0;
+    padding: 0;
+  }
 }
 
 .App-header {
@@ -41,4 +46,18 @@
 .simpleSegment {
   margin: 0;
   background-color: #131519;
+
+  & h1 {
+    color: white;
+    padding-top: 20px;
+    font-size: 50px;
+    margin-bottom: 0;
+  }
+  & p {
+    color: #dfdfdf;
+    max-width: 600px;
+    margin: 10px auto auto auto;
+    padding-bottom: 30px;
+    font-size: 20px;
+  }
 }
