@@ -2,7 +2,6 @@
   text-align: center;
 
   &>div {
-    margin: 0;
     padding: 0;
   }
 }
@@ -59,5 +58,21 @@
     margin: 10px auto auto auto;
     padding-bottom: 30px;
     font-size: 20px;
+  }
+}
+
+.flexRow {
+  color: white;
+  background-color: green;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  &>div{
+    background-color: #393f4a;
   }
 }
