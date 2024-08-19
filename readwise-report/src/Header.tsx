@@ -1,20 +1,19 @@
 import './App.css'
+import './Header.css'
 import {useEffect, useState} from "react";
+import logo from './assets/rw-logo-dark.png';
 
 export const Header = () => {
-    const [doAnimation, setDoAnimation] = useState(true)
+    const [isVisible, setIsVisible] = useState(false);
     useEffect(() => {
-        setDoAnimation(false);
+        setIsVisible(true)
     }, []);
 
-    const className = "App-header " //+ doAnimation? "headerTextDivOnLoad":''
-
-    return <header className={className}>
-        <div className="headerTextDiv">
+    return <header className={`App-header`}>
+        <img src={logo} alt="readwise-logo" className={`logo ${isVisible ? 'imageOnLoad' : ''}`} />
+        <div className={`headerTextDiv ${isVisible ? 'headerTextOnLoad' : ""}`}>
         <h1>The Readwise Report</h1>
-        <p>A summary of my experience working at the company,
-            what I've learned, and what I look forward to
-            for my next term with Readwise.</p>
+        <p>A summary of my experience with the company <br/> brought to you by Andrew Lichmanov</p>
         </div>
     </header>
 

@@ -1,0 +1,60 @@
+
+.App-header {
+  background-color: #020202;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerTextDiv {
+  border-radius: 5px;
+  position: relative;
+  width: 80%;
+  margin: auto auto 15% auto;
+  transition: all 0.5s;
+
+  & h1 {
+    font-size: 12vh;
+    color: white;
+    margin: 30px 10px 10px 10px;
+  }
+  & p {
+    font-size: 3vh;
+    color: #dfdfdf;
+    margin: 20px 50px 50px 50px;
+  }
+}
+
+.logo {
+  width: 50%;
+  position: absolute;
+}
+
+@keyframes fadeInTranslate {
+  0% {
+    opacity: 0;
+    transform: translateY(30vh);
+  }
+  100 % {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeOut {
+  0%{
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.30;
+  }
+}
+
+.headerTextOnLoad {
+  animation: fadeInTranslate 1s ease-in-out forwards;
+}
+.imageOnLoad {
+  animation: fadeOut 1s ease-in-out forwards;
+}
