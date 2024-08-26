@@ -19,10 +19,21 @@
 .aboutText {
     width: 40%;
     margin: auto calc(20px + 5vw) auto auto;
+    visibility: hidden;
 }
 
-.aboutImg {
-    /*height: 80%;*/
-    /*min-height: 400px;*/
-    width: 40%;
+.imgDiv {
+    width: fit-content;
+    height: fit-content;
+    display: block;
+    background-color: white;
+}
+
+.phoneImg {
+    height: 60%;
+    bottom: 0;
+}
+.ipadImg {
+    height: 100%;
+    bottom: 0;
 }
