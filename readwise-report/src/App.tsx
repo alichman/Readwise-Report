@@ -1,6 +1,7 @@
 import './App.css';
 import {Header} from "./Header";
 import {About} from "./About";
+import {MyRole} from "./MyRole";
 
 function App() {
 
@@ -8,7 +9,7 @@ function App() {
     <div className="App">
         <Header/>
         <About/>
-
+        <MyRole/>
     </div>
   );
 }

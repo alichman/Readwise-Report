@@ -1,0 +1,40 @@
+.MyRole {
+    width: 100%;
+    min-height: 20vh;
+    margin: 20px 0 20px 0;
+
+}
+
+.HeadText {
+    width: 50%;
+    margin: 100px auto 50px auto;
+    & h1 {
+        font-size: 50px;
+        color: white;
+        text-align: center;
+    }
+    & p {
+        font-size: 20px;
+        color: #dfdfdf;
+        text-align: center;
+    }
+}
+
+.FlexList {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+
+    &div {
+        & h1 {
+        font-size: 30px;
+        color: #dfdfdf;
+        text-align: center;
+        }
+        & p {
+            font-size: 15px;
+            color: #a8a7a7;
+            text-align: center;
+        }
+    }
+}
