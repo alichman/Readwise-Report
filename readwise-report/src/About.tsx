@@ -13,10 +13,10 @@ export const About = () => (
             <h1>What is Readwise</h1>
             <p>
             Readwise is a Toronto-based start-up aiming to develop the ultimate reading apps.
-                Their main product, on which I've had the privilege to work on, is the Readwise Reader -
+                Their flagship product, on which I've had the privilege to work on, is the Readwise Reader -
                 A power-user focused app packed with features designed for productivity.<br/><br/>
-                In my opinion, they most definitely have the potential to dethrone Amazon and Adobe
-                as the ultimate reading app.
+                There is another app in the works however, which I hope to contribute to in my next
+                four months - Bookwise, an all-in-one book store, reader and audio book platform.
             </p>
         </div>
     </div>
