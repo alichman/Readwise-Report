@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/%7BReadwise-Report%7D/static/css/main.4ad61199.css",
+    "main.js": "/%7BReadwise-Report%7D/static/js/main.df67840f.js",
+    "static/js/453.bee9c111.chunk.js": "/%7BReadwise-Report%7D/static/js/453.bee9c111.chunk.js",
+    "static/media/rw-ipad.png": "/%7BReadwise-Report%7D/static/media/rw-ipad.52e38a94cef9e3c84170.png",
+    "static/media/rw-phone.png": "/%7BReadwise-Report%7D/static/media/rw-phone.ff886084c8d94801852d.png",
+    "index.html": "/%7BReadwise-Report%7D/index.html",
+    "main.4ad61199.css.map": "/%7BReadwise-Report%7D/static/css/main.4ad61199.css.map",
+    "main.df67840f.js.map": "/%7BReadwise-Report%7D/static/js/main.df67840f.js.map",
+    "453.bee9c111.chunk.js.map": "/%7BReadwise-Report%7D/static/js/453.bee9c111.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ad61199.css",
+    "static/js/main.df67840f.js"
+  ]
+}
