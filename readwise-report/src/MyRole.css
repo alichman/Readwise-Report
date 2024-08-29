@@ -21,20 +21,43 @@
 }
 
 .FlexList {
-    width: 90%;
+    width: 100%;
+    min-height: 40vh;
     display: flex;
     justify-content: space-between;
+    margin: 10vh auto 10vh auto;
+    overflow: scroll;
+    scrollbar-width: none;
 
-    &div {
+    & div {
+        width: 30%;
+        min-width: 300px;
+        background-color: #151515;
+        border-radius: 20px;
+        border-color: white;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        margin: 0 20px 0 20px;
+
         & h1 {
-        font-size: 30px;
-        color: #dfdfdf;
-        text-align: center;
+            font-size: 30px;
+            color: #dfdfdf;
+            text-align: center;
+            margin-bottom: 0;
+        }
+        & h2 {
+            font-size: 20px;
+            color: #dfdfdf;
+            text-align: center;
+            margin: 0 auto 20px auto;
+            width: 80%;
         }
         & p {
-            font-size: 15px;
+            width: 70%;
+            font-size: 18px;
             color: #a8a7a7;
-            text-align: center;
+            text-align: left;
+            margin: auto;
         }
     }
 }
