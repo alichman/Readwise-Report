@@ -1,6 +1,6 @@
 {
   "name": "readwise-report",
-  "homepage": "http://{alichman}.github.io/{Readwise-Report}",
+  "homepage": "https://alichman.github.io/Readwise-Report",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
