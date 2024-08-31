@@ -3,6 +3,7 @@ import {Header} from "./Header";
 import {About} from "./About";
 import {MyRole} from "./MyRole";
 import {Culture} from "./Culture";
+import {Goals} from "./Goals";
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
         <About/>
         <MyRole/>
         <Culture/>
+        <Goals/>
     </div>
   );
 }

@@ -6,7 +6,8 @@ export const Culture = () => (
     <div className="Culture">
         <div className="cultureText">
             <h1>Readwise Culture</h1>
-            <p>I joined Readwise for the amazing learning opportunity.<br/>
+            <p>
+                I joined Readwise for the amazing learning opportunity.<br/>
                 I'm staying for another 4 months for the people.<br/><br/>
                 Right from my onboarding, the feeling between myself and my managers hadn't
                 that of professional duty, but of a personal apprenticeship.<br/><br/> On my first day, my direct
@@ -21,7 +22,6 @@ export const Culture = () => (
                 <br/><br/>
                 The work culture at Readwise heavily leans on the mutual trust between every member. Everyone knows their responsibility,
                 their strengths, and their limits. The team uses Gather for their meetings, making discussions easily accessible to everyone.
-
             </p>
         </div>
         <div className="imgDiv">
