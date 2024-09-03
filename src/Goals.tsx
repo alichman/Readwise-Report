@@ -88,13 +88,51 @@ export const Goals = () => (
             </div>
             <div>
                 <h1>Critical Thinking</h1>
-                <h2>Efficient programming</h2>
-                <p>babungus fungus</p>
+                <h2>Efficient Programming</h2>
+                <p>
+                    Much of my experience as a programmer comes from C. C is a very direct language, that does exactly what you ask without
+                    much flare, and because of this, efficiency in programs is crucial. I've seen myself make good strides in writing
+                    optimized programs, but I was eager to see what it took to optimize something as large as a full application.
+                    <br/><br/>
+                    Little did I know that my tasks had nothing to do with optimization. As mentioned in the previous goal, React is,
+                    at its core, an already-optimized language. Since I mostly worked on front-end tasks, I hadn't had to deal
+                    with algorithms and intense programs. The only times I had to deal with performance optimizations had been
+                    when I did something very wrong and not React-friendly, and this was a matter of learning the language, rather than
+                    critical thinking.
+                    <br/><br/>
+                    Similarly to the previous goal, however, I did end up learning a few things that I didn't expect.
+                    One said thing was just how far applying something basic consistently could improve overall code quality.
+                    Putting time into considering render dependencies, function parameters, global states and logic flow can
+                    take an unreliable, inefficient piece of hacked code, and make it a great tool for your app and your team.
+                </p>
             </div>
             <div>
-                <h1>AUGUST</h1>
-                <h2>External Document Sharing</h2>
-                <p>babungus fungus</p>
+                <h1>Professional Behvaiour</h1>
+                <h2>Personal Organization and Time Management</h2>
+                <p>
+                    When working on personal projects at home, with little to no deadlines, I often faced the temptation to take
+                    poorly timed breaks, get distracted from work, or outright forget what I was working on. This was, understandably,
+                    a serious concern for me as I got started at Readwise. In fact, it was why I sook an in-person position, as it would
+                    put pressure on me to work consistently. My fifth goal was to work on my ability to work consistently and deliver
+                    bug fixes and features on a regular basis.
+                    <br/><br/>
+                    The measurement I set for this goal was 'The amount of pull requests I deliver within a day on average'. I now know just how
+                    flawed of a measurement that is.
+                    <br/><br/>
+                    My conviction in this idea of consistent shipping was strengthened by first week of the internship. I was still being
+                    tested on my initial skill, and was given very simple bugs, in which most of the work was in finding the issue in the
+                    code base, rather than write meaningful code. As such, at the end of each day I had 3 pull requests ready for review.
+                    My confidence was through the roof, until I hit my first week-long task.
+                    <br/><br/>
+                    What I discovered was that there can very well be a one-line solution to an issue, and it still take ages to find.
+                    When working on some bugs, particularly with production crashes, the biggest piece of progress one can achieve is to
+                    reach a new step of understanding of the issue. Simply understanding the cause can be a grueling task with many
+                    red herrings.
+                    <br/><br/>
+                    It is due to tasks like these that I've learned that progress cannot really be quantified as easily in this field.
+                    Every task will take its own amount of time, and as long as time and effort is being dedicated to something useful,
+                    progress is being made.
+                </p>
             </div>
         </div>
     </div>
