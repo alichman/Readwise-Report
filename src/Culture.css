@@ -1,4 +1,4 @@
-.about {
+.Culture {
     width: 100%;
     height: 100vh;
     margin: 20px 0 20px 0;
@@ -17,9 +17,15 @@
     }
 }
 
-.aboutText {
+
+.cultureText {
     width: 40%;
-    margin: auto calc(20px + 5vw) auto auto;
+    margin: auto auto auto calc(20px + 5vw);
+    & p {
+        overflow-y: scroll;
+        scrollbar-width: none;
+        max-height: 50vh;
+    }
 }
 
 .imgDiv {
@@ -37,7 +43,7 @@
 .ipadImg {
     position: absolute;
     bottom: 0;
-    left: 10%;
+    right: 10%;
     height: 100%;
     object-fit: cover;
 }

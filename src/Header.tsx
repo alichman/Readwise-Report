@@ -13,7 +13,7 @@ export const Header = () => {
         <img src={logo} alt="readwise-logo" className={`logo ${isVisible ? 'imageOnLoad' : ''}`} />
         <div className={`headerTextDiv ${isVisible ? 'headerTextOnLoad' : ""}`}>
         <h1>The Readwise Report</h1>
-        <p>A summary of my experience throught my internship with the company. <br/> Brought to you by Andrew Lichmanov</p>
+        <p>A summary of my experience throughout my internship with the company. <br/><br/> Brought to you by Andrew Lichmanov</p>
         </div>
     </header>
 
