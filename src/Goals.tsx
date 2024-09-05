@@ -9,7 +9,7 @@ export const Goals = () => (
                 A reflection on my perspective at the beginning of the work term.
             </p>
         </div>
-        <div className="FlexList">
+        <div className="FlexListGoals">
             <div>
                 <h1>Critical Thinking</h1>
                 <h2>Exploring the difference between personal and professional programming projects.</h2>

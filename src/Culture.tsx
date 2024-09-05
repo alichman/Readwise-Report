@@ -1,6 +1,6 @@
 import './App.css';
 import './Culture.css';
-import jamImage from './assets/rw-ipad.png'
+import jamImage from './assets/jamwise.jpg'
 
 export const Culture = () => (
     <div className="Culture">
@@ -25,7 +25,8 @@ export const Culture = () => (
             </p>
         </div>
         <div className="imgDiv">
-            <img src={jamImage} alt="JamWise" className="ipadImg"/>
+            <img src={jamImage} alt="JamWise in session" className="cultureImage" />
+            <h2>Readwise Jamwise practice in session</h2>
         </div>
     </div>
 )
