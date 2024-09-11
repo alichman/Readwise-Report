@@ -1,12 +1,32 @@
 import './App.css';
 import './Culture.css';
 import jamImage from './assets/jamwise.jpg'
+import {useEffect, useRef} from "react";
 
-export const Culture = () => (
-    <div className="Culture">
+export const Culture = () => {
+    const ref = useRef<HTMLParagraphElement>(null);
+    useEffect(() => {
+
+        const handler = () => {
+            const value = ref.current;
+            if(!value){
+                return
+            }
+            const percent = value.scrollTop / (value.scrollHeight - value.clientHeight);
+            console.log(percent);
+        }
+
+        ref.current?.addEventListener('scroll', handler);
+        const refValue = ref.current;
+        return () => {
+            refValue?.removeEventListener('scroll', handler);
+        }
+    }, []);
+
+    return <div className="Culture">
         <div className="cultureText">
             <h1>Readwise Culture</h1>
-            <p>
+            <p ref={ref}>
                 I joined Readwise for the amazing learning opportunity.<br/>
                 I'm staying for another 4 months for the people.<br/><br/>
                 Right from my onboarding, the feeling between myself and my managers hadn't
@@ -29,4 +49,4 @@ export const Culture = () => (
             <h2>Readwise Jamwise practice in session</h2>
         </div>
     </div>
-)
+}

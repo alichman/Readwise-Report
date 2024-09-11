@@ -22,11 +22,20 @@
     margin: auto calc(20px + 5vw) auto auto;
 }
 
+.aboutTextSmol {
+    width: 50%;
+    margin: auto;
+}
+
 .imgDiv {
     position: relative;
     width: 50vh;
     height: 60vh;
     overflow: hidden;
+}
+
+.imgDivSmol {
+    opacity: 0.5;
 }
 
 .phoneImg {

@@ -1,7 +1,11 @@
 .App {
   text-align: center;
+  scrollbar-color: green rgba(0, 0, 0, 0.1);
 
   &>div {
     padding: 0;
+  }
+  & p {
+    scrollbar-color: purple rgba(0, 0, 0, 0.1);
   }
 }

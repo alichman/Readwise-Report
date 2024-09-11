@@ -24,7 +24,6 @@
     display: flex;
     justify-content: space-between;
     overflow-x: scroll;
-    scrollbar-width: none;
 
     & div {
         width: 40vh;
@@ -53,7 +52,6 @@
             width: 80%;
             height: 70%;
             overflow-y: scroll;
-            scrollbar-width: none;
             font-size: 18px;
             color: #a8a7a7;
             text-align: left;

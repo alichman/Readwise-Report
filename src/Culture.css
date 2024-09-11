@@ -23,7 +23,6 @@
     margin: auto auto auto calc(20px + 5vw);
     & p {
         overflow-y: scroll;
-        scrollbar-width: none;
         max-height: 50vh;
     }
 }

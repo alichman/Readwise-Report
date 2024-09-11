@@ -25,7 +25,6 @@
     justify-content: space-between;
     margin: 10vh auto 10vh auto;
     overflow: scroll;
-    scrollbar-width: none;
 
     & div {
         width: 40vh;
@@ -58,7 +57,6 @@
             text-align: left;
             margin: auto auto 30px auto;
             overflow-y: scroll;
-            scrollbar-width: none;
         }
     }
 }
