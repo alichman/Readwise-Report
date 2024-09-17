@@ -4,6 +4,7 @@
     margin: 20px 0 20px 0;
     display: flex;
     justify-content: space-between;
+    overflow: visible;
     align-items: center;
     & h1 {
         font-size: 50px;
@@ -20,11 +21,7 @@
 .aboutText {
     width: 40%;
     margin: auto calc(20px + 5vw) auto auto;
-}
-
-.aboutTextSmol {
-    width: 50%;
-    margin: auto;
+    min-width: 40vh;
 }
 
 .imgDiv {
@@ -32,10 +29,8 @@
     width: 50vh;
     height: 60vh;
     overflow: hidden;
-}
-
-.imgDivSmol {
-    opacity: 0.5;
+    z-index: 1;
+    flex-shrink: 0;
 }
 
 .phoneImg {

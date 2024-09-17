@@ -42,6 +42,9 @@ export const Culture = () => {
                 <br/><br/>
                 The work culture at Readwise heavily leans on the mutual trust between every member. Everyone knows their responsibility,
                 their strengths, and their limits. The team uses Gather for their meetings, making discussions easily accessible to everyone.
+                <br/><br/>
+                I've also had a chance to personally contribute to the office culture in Toronto. About a month into my internship, the topic
+                of musical instruments came up in conversation. Long story short, Readwise Jamwise became a weekly event in the office (See image to the right).
             </p>
         </div>
         <div className="imgDiv">
