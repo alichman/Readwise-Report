@@ -1,0 +1,77 @@
+.WTToggle {
+    width: 100%;
+    overflow: visible;
+}
+
+.ToggleContainer {
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 20px;
+    z-index: 2;
+
+    & h2 {
+            font-size: 30px;
+            color: white;
+            text-align: center;
+            margin: 20px auto 5px auto;
+            width: 80%;
+    }
+    & p {
+        font-size: 20px;
+        color: #d7d6d6;
+        text-align: center;
+        margin: auto;
+    }
+
+    .ToggleTextContainer {
+        max-width: 500px;
+        transition: 0.2s;
+    }
+
+    .ToggleButton {
+        width: 600px;
+        display: flex;
+        justify-content: space-evenly;
+        border-bottom-color: white;
+        border-radius: 10px;
+        border-width: 2px;
+        border-style: solid;
+        top: 20px;
+        background-color: #0a0a0a;
+        transition: 0.2s;
+
+        .ToggleButtonSection {
+            width: 50%
+        }
+    }
+}
+
+.hidden {
+    transform: translateX(4%);
+    justify-content: right;
+    .ToggleTextContainer {
+        opacity: 0;
+    }
+    .ToggleButton {
+        scale: 70%;
+        width: 500px;
+
+        h2 {
+            margin-top: 0px;
+        }
+    }
+    .ToggleButtonSection {
+        align-content: center;
+    }
+}
+
+.selected {
+    background-color: #151515;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 2px;
+    border-spacing: 10px;
+    border-style: ridge;
+    border-bottom-style: none;
+}

@@ -24,7 +24,8 @@
     display: flex;
     justify-content: space-between;
     margin: 10vh auto 10vh auto;
-    overflow: scroll;
+    overflow-x: scroll;
+    overflow-y: hidden;
 
     & div {
         width: 40vh;
@@ -35,12 +36,14 @@
         border-bottom-style: solid;
         border-bottom-width: 2px;
         margin: 0 20px 0 20px;
+        height: 65vh;
 
         & h1 {
             font-size: 30px;
             color: #dfdfdf;
             text-align: center;
             margin-bottom: 0;
+
         }
         & h2 {
             font-size: 20px;
@@ -50,13 +53,13 @@
             width: 80%;
         }
         & p {
+            overflow-y: scroll;
             width: 75%;
-            max-height: 50vh;
+            height: 65%;
             font-size: 18px;
             color: #cfcfcf;
             text-align: left;
             margin: auto auto 30px auto;
-            overflow-y: scroll;
         }
     }
 }
