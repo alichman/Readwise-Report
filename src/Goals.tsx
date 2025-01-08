@@ -40,8 +40,8 @@ const GoalsWT2 = () => (
                 </p>
             </div>
             <div>
-                <h1>Professional Behvaiour</h1>
-                <h2>Personal Organization and Time Management</h2>
+                <h1>idk</h1>
+                <h2>no clue</h2>
                 <p>
 
                 </p>

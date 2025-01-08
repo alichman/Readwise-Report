@@ -32,30 +32,35 @@
     .ToggleButton {
         width: 600px;
         display: flex;
-        justify-content: space-evenly;
-        border-bottom-color: white;
-        border-radius: 10px;
-        border-width: 2px;
-        border-style: solid;
+        justify-content: space-evenly;]
         top: 20px;
         background-color: #0a0a0a;
         transition: 0.2s;
 
         .ToggleButtonSection {
-            width: 50%
+            width: 50%;
+            border-color: white;
+            border-width: 2px;
+            border-radius: 2px;
+            border-spacing: 10px;
+            border-style: none;
+            border-bottom-style: ridge;
+
+        }
+        .ToggleButtonSection:hover {
+            scale: 110%;
         }
     }
 }
 
-.hidden {
-    transform: translateX(4%);
+.mini {
     justify-content: right;
     .ToggleTextContainer {
         opacity: 0;
     }
     .ToggleButton {
         scale: 70%;
-        width: 500px;
+        width: 300px;
 
         h2 {
             margin-top: 0px;
@@ -67,11 +72,6 @@
 }
 
 .selected {
+    border-style: ridge !important;
     background-color: #151515;
-    border-color: white;
-    border-width: 2px;
-    border-radius: 2px;
-    border-spacing: 10px;
-    border-style: ridge;
-    border-bottom-style: none;
 }
