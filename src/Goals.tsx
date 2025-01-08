@@ -15,6 +15,25 @@ const GoalsWT2 = () => (
                 <h1>Problem Solving</h1>
                 <h2>Tackling next-level projects</h2>
                 <p>
+                    Following my first work term, I felt satisfied with my performance up to that point. I had certainly been challenged,
+                    especially in my ability to learn quickly and develop in a new, complex environment. However, when looking forward to
+                    the Fall term, I knew it was time to challenge myself in a new way. Thus, I made it a mission for this term to seek
+                    a project that I personally wanted to see developed, and bring it to users myself. Luckily, I've found multiple.<br/><br/>
+                    The last three projects in the My Role section were the result of my search for a challenging project. As I've mentioned,
+                    I've spent weeks on each one, and they have all been catalysts for my growth as an engineer. In that way, I can certainly
+                    consider this goal completed. However, there was more that I've learned through pursuing these projects that have expanded
+                    my mentality regarding teamwork.<br/><br/>
+                    In September, I was assigned a simple issue - When a user listened to a document while in the homepage of the website, their
+                    document's progress bar wasn't moving forward. The CX member who reported the issue assumed it was a glitch, in which the progress
+                    bar itself just wasn't updating. As I've mentioned, at the time I was looking for quick issues to hack through to get back into
+                    the flow of programming so I thought this would be a quick investigation. After I discovered that it wasn't a bug, and that we
+                    entirely lacked Text-to-Speech progress tracking as a feature, I was tempted to punt this fix until later, or hand it off to someone
+                    else. However, on my way home that day, I couldn't help thinking about this issue, and how I might go about solving it. The next day,
+                    partially driven by this goal, and partly by the growing annoyance and obsession with the issue, I decided to take on this task.<br/><br/>
+                    I've later received feedback from my managers, saying that this decision, along with others, resulted in a strengthened trust towards
+                    me from other members of the development team. I started getting assigned more difficult issues, particularly in the TTS field.<br/><br/>
+                    This feedback made me realize how much of the trust between team members comes from initiative, and not needing to be told what to do,
+                    what decisions to make, where to take risks, and crucially, when to ask for help.
 
                 </p>
             </div>

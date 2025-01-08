@@ -32,6 +32,7 @@
     .ToggleButton {
         width: 600px;
         display: flex;
+        border-radius: 20px;
         justify-content: space-evenly;]
         top: 20px;
         background-color: #0a0a0a;
