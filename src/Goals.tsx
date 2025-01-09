@@ -38,15 +38,21 @@ const GoalsWT2 = () => (
                 </p>
             </div>
             <div>
-                <h1>Teamwork</h1>
-                <h2>Working more with developers and other teams</h2>
+                <h1>Technological Literacy</h1>
+                <h2>Develop a specialty within the company</h2>
                 <p>
-
+                    I spent my first work term at Readwise with the hopes of exploring as much of the codebase as possible. Though it was comforting
+                    to revisit code I've seen before, if I spent too long working on a certain area of the app, I felt the need to diversify my work.
+                    However, after coming back for a second term I believed I had explored a good amount of the codebase to feel comfortable with any
+                    kind of task, and I thought it would be an interesting challenge to become an expert of a certain field.<br/><br/>
+                    I didn't see any kind of advantage to this goal at the time, but thought it would be fun, so I went all in on a field I had already
+                    been quite interested in - Text to Speech. TTS has been a recurring area of work for me, as it's a very hard feature to get right,
+                    and had plenty of bugs easy enough for an intern to practice on. Additionally, after the completion of my first goal
                 </p>
             </div>
             <div>
-                <h1>Technological Literacy</h1>
-                <h2>Develop a specialty within the company</h2>
+                <h1>Teamwork</h1>
+                <h2>Working more with developers and other teams</h2>
                 <p>
 
                 </p>
