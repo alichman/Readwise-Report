@@ -47,28 +47,73 @@ const GoalsWT2 = () => (
                     kind of task, and I thought it would be an interesting challenge to become an expert of a certain field.<br/><br/>
                     I didn't see any kind of advantage to this goal at the time, but thought it would be fun, so I went all in on a field I had already
                     been quite interested in - Text to Speech. TTS has been a recurring area of work for me, as it's a very hard feature to get right,
-                    and had plenty of bugs easy enough for an intern to practice on. Additionally, after the completion of my first goal
+                    and had plenty of bugs easy enough for an intern to practice on. Additionally, after I completed my first goal, I gained an in-depth
+                    understanding of the front-end mechanisms of Text to Speech, and continuously sook out related tasks.<br/><br/>
+                    This led to me working on the major projects listed in the My Role section for the second semester. The Audiobooks project was proposed
+                    to me by my manager, citing my knowledge of our mobile track player code, as well as how the implementations of my previous projects, such as
+                    audio progress saving, would be necessary to bring to audiobooks.<br/><br/>
+                    As I've mentioned, this was initially something I wanted to do just for the challenge. However, I've found that there was much value in
+                    carving a niche for yourself in a team. Through expertise in a certain section of the code, I found myself being entrusted with larger and
+                    more challenging projects, and allowed me to leave an impact on the company, larger than I thought possible when first starting out at Readwise.
                 </p>
             </div>
             <div>
                 <h1>Teamwork</h1>
                 <h2>Working more with developers and other teams</h2>
                 <p>
-
+                    During my first four months, I've mostly interacted with the developers of the Toronto office, of which there were only three. They were able to
+                    answer my questions and guide me in my tasks, so I never felt the need to properly get to know the rest of the team. I'd occasionally write to
+                    an engineer about code they wrote, or even answer a question or two if I felt comfortable in my knowledge, but at the end of August, I was
+                    disappointed to say that I didn't really know anyone at the company outside of Toronto especially because everyone in the company knew and
+                    appreciated each other. I then decided to put this goal in place, to get to know more of the team and to find new ways to interact with them.
+                    <br/><br/> A good first step towards this was when I was assigned to be GREG (Generally Responsible Engineer) - A role that each engineer holds
+                    for a week. The role consists of taking a break from whatever major projects are occurring, and spending time on issues that are affecting the
+                    development process, rather than the users. GREG is also responsible for addressing daily feature requests through a video. I used this week to
+                    speak to developers about the viability and priority of new features, and to members of CX regarding user questions. <br/><br/>
+                    This initial step allowed me to get a better feel of everyone's specialties and, more importantly, their general vibes. However, the week that
+                    allowed me to truly get to know my coworkers was the November Curacao offsite. I've had the chance to simply hang out with every member of the
+                    company, as well as working with them during the company hackathon. After coming back from this trip, I noticed that I was even more interested in
+                    my projects, as I knew who I was working with and that my contributions would be appreciated by people I knew. This left a major impact on how I think
+                    about teamwork, and what kind of atmosphere I'd want to be a part of in future projects.
                 </p>
             </div>
             <div>
                 <h1>Written Communication</h1>
                 <h2>Write clearer PR descriptions and support requests</h2>
                 <p>
-
+                    As an intern, I found myself often asking for help. This was, of course, not a problem, and obviously encouraged by my managers. What wasn't,
+                    however, was my tendency to not explain my issues properly, leading a lot of confusion, as other developers would misunderstand my troubles,
+                    and even my tasks at times. This issue also extended to my descriptions of pull requests, which were often not very descriptive, and would
+                    sometimes include false information. For my second term, I was determined to improve in this aspect.<br/><br/>
+                    I first felt that I should identify the issue. Though there were multiple, the one that stood out to me and my managers the most was my
+                    tendency to rush into issues, without fully understanding the cause. Much of my work would thus end up as patches for glitches instead of
+                    an actual improvement to the code. When a developer reviewed my code, they would ask for an explanation of the issue, and I would provide
+                    an uncertain and easily disprovable hypothesis, despite the fact that in the world of programming, everything should ideally have a clear
+                    reasoning.<br/><br/>
+                    The way to improvement was clear - I just had to spend more time investigating issues before diving right in. With a concious effort, I
+                    believe I've improved in this sense. The complaints and confusions became less frequent, as I spent more time researching issues and trying
+                    to fix the root of the issue from the beginning, instead of discovering it as I worked. I'd like to say that the entire problem went away,
+                    but unfortunately that is not the case.<br/><br/>
+                    This goal is an ongoing one, as it appeared in my final review. As my managers put it, I still lack the instinctual understanding that
+                    I am the only one with the context of what I'm working, and a proper understanding of the issue. I hold on to the belief that my managers
+                    already know the answer to my problems, but that is rarely true. While I always recognized my fault when called out on an incomplete explanation,
+                    I didn't fully internalize the feedback until very late in my internship.<br/><br/>
+                    I'm glad, however, that this flaw was put into context for me. I now have a clear step for improvement outside of Readwise, which leads me to my next goal...
                 </p>
             </div>
             <div>
-                <h1>idk</h1>
-                <h2>no clue</h2>
+                <h1>Personal Goal</h1>
+                <h2>To set clear goals for my future, outside of Readwise</h2>
                 <p>
-
+                    At the end of my first term, I was thrilled to realize just how much I learned about development. It got me thinking of what I could achieve on my own.
+                    I began scheming on a new app that I could develop myself. I still hope to find the time to bring this plan to life during this school year,
+                    but the app idea is not the crucial thing I gained from this line of thinking. More importantly, I began thinking on what I'd do once I completed my
+                    second term - Once I didn't have my managers to tell my what to work on.<br/><br/>
+                    From that moment, I found a new value to the time I spent with my managers during lunch, or other moments outside of work. I sook advice from my
+                    superiors for personal improvement, and I believe I've gained much insight into future paths for myself.<br/><br/>
+                    On top of tips for resumes and interviews, I've gained very helpful personal advice such as the previous goal of improved communication. Additionally,
+                    I've gained an insight on the languages I want to learn, the positions I want to seek out, and how to learn to productively pursue my ambitions.<br/><br/>
+                    Setting this goal in september had been incredibly helpful, as I now believe that I have a clear list of things to work on.
                 </p>
             </div>
         </div>

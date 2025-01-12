@@ -27,7 +27,7 @@
     overflow-y: hidden;
 
     & div {
-        width: 40vh;
+        width: 50vw;
         min-width: 500px;
         background-color: #151515;
         border-radius: 20px;

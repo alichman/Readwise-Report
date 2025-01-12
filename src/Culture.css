@@ -1,10 +1,10 @@
 .Culture {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
-    margin: 20px 0 20px 0;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+
     & h1 {
         font-size: 50px;
         color: white;
@@ -20,16 +20,13 @@
 
 .cultureText {
     width: 40%;
-    margin: auto auto auto calc(20px + 5vw);
     & p {
         overflow-y: scroll;
         max-height: 50vh;
     }
 }
 
-.imgDiv {
-    position: relative;
-    width: 50vh;
+.cultureImgDiv {
     height: 60vh;
     & h2 {
         font-size: 18px;
