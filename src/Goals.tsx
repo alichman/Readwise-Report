@@ -120,10 +120,62 @@ const GoalsWT2 = () => (
     </div>
 )
 
-export const Goals = ({wt}:{wt: 1|2}) => {
+
+const GoalsWT3 = () => (
+    <div className="Goals">
+        <div className="HeadText">
+            <h1>My Goals</h1>
+            <p>
+                bazinga
+            </p>
+        </div>
+        <div className="FlexListGoals">
+            <div>
+                <h1>Teamwork</h1>
+                <h2>Working with non-developer teams</h2>
+                <p>
+
+                </p>
+            </div>
+            <div>
+                <h1>Technological Literacy</h1>
+                <h2>Gain a better understanding of backend database work</h2>
+                <p>
+
+                </p>
+            </div>
+            <div>
+                <h1>Visual Literacy</h1>
+                <h2>Gain a greater insight into graphic design</h2>
+                <p>
+
+                </p>
+            </div>
+            <div>
+                <h1>Organization</h1>
+                <h2>Produce well tested and reliable code</h2>
+                <p>
+
+                </p>
+            </div>
+            <div>
+                <h1>Initiative</h1>
+                <h2>Introduce and develop personal projects</h2>
+                <p>
+
+                </p>
+            </div>
+        </div>
+    </div>
+)
+
+export const Goals = ({wt}:{wt: number}) => {
 
     if (wt === 2) {
         return GoalsWT2()
+    }
+    if (wt === 3) {
+        return GoalsWT3()
     }
 
     return <div className="Goals">

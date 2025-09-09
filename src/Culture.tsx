@@ -1,7 +1,6 @@
 import './App.css';
 import './Culture.css';
 import jamImage from './assets/jamwise.jpg'
-import offsite from './assets/curacao.jpg'
 
 export const Culture = () => {
     return <div className="Culture">

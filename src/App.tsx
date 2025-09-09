@@ -8,7 +8,7 @@ import {useState} from "react";
 import {WTToggle} from "./WTToggle";
 
 function App() {
-    const [wt, setWt] = useState<1 | 2>(2)
+    const [wt, setWt] = useState<number>(2)
 
     return (
         <div className="App">

@@ -1,7 +1,7 @@
 import './App.css';
 import './MyRole.css';
 
-export const MyRole = ({sem}: { sem: 1 | 2 }) => {
+export const MyRole = ({sem}: { sem: number}) => {
     if (sem === 1) {
         return <div className="MyRole">
             <div className="HeadText">
@@ -108,7 +108,8 @@ export const MyRole = ({sem}: { sem: 1 | 2 }) => {
         </div>
     }
 
-    return <div className="MyRole">
+    if (sem === 2) {
+        return <div className="MyRole">
             <div className="HeadText">
                 <h1>My Role at Readwise - Second Semester</h1>
                 <p>
@@ -204,6 +205,65 @@ export const MyRole = ({sem}: { sem: 1 | 2 }) => {
                         with handling large audio files, I was giving it my all every day of my last month as an intern.<br/><br/> In the end,
                         I ended up shipping my end of the project on my second last day, and the entire project was merged about a week later.
                         I am incredibly proud of having accomplished this, and I'm very grateful for the trust Readwise had put in me to complete it.
+                    </p>
+                </div>
+            </div>
+        </div>
+    }
+
+    return <div className="MyRole">
+            <div className="HeadText">
+                <h1>My Role at Readwise - Third Semester</h1>
+                <p>
+                    With two terms under my belt, Readwise placed a lot more weight on me. With the third app in closed alpha testing, there was no shortage of work.
+                    I spent these 4 months independently developing a large portion of Bookwise, both in the front and back end.<br/><br/> Here are a few notable projects.
+                </p>
+            </div>
+            <div className="FlexList">
+
+                <div>
+                    <h1>MAY</h1>
+                    <h2>Graphic Overhaul</h2>
+                    <p>
+                        When I began my third term, Bookwise was in very early stages of development. It was at the point of basic functionality for the sake of a publisher demo, but it was nowhere near ready for release.
+                        My first month was spent on completely changing the layout, flow, colour schemes, and entire pages to resemble a clean product. This involved a lot of meetings with the graphic design team, with which I worked directly.<br/><br/>
+                        The most notable rework of my first month was a complete re-imagination of the leaderboard screen. Bookwise is a social media app for readers, so a reading leaderboard is a crucial feature. The existing page was only a proof of concept,
+                        and the design on figma was limited. After implementing the existing design, I went on to adding more functionality and better flow to the page based on my own vision. This project was a great warmup, and served to set up a relationship with
+                        the graphic design team. It also went on to set the expectations for the remainder of the term of me working independently and implementing my own ideas somewhat liberally.
+                    </p>
+                </div>
+                <div>
+                    <h1>JUNE</h1>
+                    <h2>Edit Profile and image imports</h2>
+                    <p>
+                        Having a clear and simple flow for editing a profile is a must for any social media application. Bookwise, however, still did not have the option to change your generated profile info (Or profile pictures for that matter).<br/><br/>
+                        I started of by implementing the figma design for the edit profile page, later implementing the backend portion. Next, I enabled the app to accept uploaded images as profile photos, allowing users to make unique profiles.
+                        While I was at it, I allowed the uploading of images to comments and posts, which was not a planned feature until I introduced it.
+                    </p>
+                </div>
+                <div>
+                    <h1>JULY</h1>
+                    <h2>Comment Reactions</h2>
+                    <p>
+                        A staple of social media is the ability to interact with posts. Comment sections of successful social platforms are very active,
+                        and the ability to react to comments goes a long way.<br/><br/>
+                        I started off with the back end portion, creating end points and models to support the storage of reactions, and moved to creating
+                        a very simple UI. The first version of this project allowed for the simple 'heart' reaction on double-tap. However, as soon as this project
+                        finished, I got in contact with the graphic design team, and worked together with them to make a more detailed ui, that allowed a choice
+                        of 5 reactions. About a week later, the app had fully functional reactions, that are currently being widely used throughout the app.
+                    </p>
+                </div>
+                <div>
+                    <h1>AUGUST</h1>
+                    <h2>Badges</h2>
+                    <p>
+                        As mentioned in the JUNE section, the leaderboard (or rather, the Readerboard) is an important piece of the app. As for any app that aims
+                        to inspire competition, Bookwise puts a lot of emphasis on rewarding consistent users with bragging rights. This was noted by a friend of mine
+                        while I was demonstrating the app to him, and he brought up the idea of app-wide badges that praise the global leaders on the Readerboard.
+                        I immediately messaged the company channels with this, and soon enough, I was working on it. <br/><br/>
+                        This was yet another feature that required backend work before any designing was done. I once again paired with a graphic designer to create new
+                        icons, as well as popups for explaining what each badge means. After shipping, the effects were immediately noticeable, with users bragging and competing
+                        for badges every week. Additionally I added an automated notification sender to inform users of their fancy new badges.
                     </p>
                 </div>
             </div>
