@@ -47,6 +47,15 @@ export const WTToggle = ({wt, setWt}: { wt: number; setWt: (val: number) => void
         return () => document.removeEventListener("scroll", listener);
     }, [listener])
 
+    useEffect(() => {
+        const bunga = (scroll: Event) => {
+            const rect = containerRef.current?.getBoundingClientRect();
+            console.log(rect?.height)
+        }
+        window.addEventListener('scroll', bunga);
+        return () => window.removeEventListener('scroll', bunga);
+    }, []);
+
 
     return <div className="ToggleContainer" ref={containerRef}>
         <div className="ToggleTextContainer">
