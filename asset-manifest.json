@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Readwise-Report/static/css/main.54fefaf6.css",
-    "main.js": "/Readwise-Report/static/js/main.72b14d84.js",
+    "main.css": "/Readwise-Report/static/css/main.495ff66c.css",
+    "main.js": "/Readwise-Report/static/js/main.5c9a0eb7.js",
     "static/js/453.bee9c111.chunk.js": "/Readwise-Report/static/js/453.bee9c111.chunk.js",
     "static/media/jamwise.jpg": "/Readwise-Report/static/media/jamwise.ccec8b1e98777f15de23.jpg",
     "static/media/rw-ipad.png": "/Readwise-Report/static/media/rw-ipad.52e38a94cef9e3c84170.png",
     "static/media/rw-phone.png": "/Readwise-Report/static/media/rw-phone.e9d3efcbcabfe2f7b21a.png",
     "index.html": "/Readwise-Report/index.html",
-    "main.54fefaf6.css.map": "/Readwise-Report/static/css/main.54fefaf6.css.map",
-    "main.72b14d84.js.map": "/Readwise-Report/static/js/main.72b14d84.js.map",
+    "main.495ff66c.css.map": "/Readwise-Report/static/css/main.495ff66c.css.map",
+    "main.5c9a0eb7.js.map": "/Readwise-Report/static/js/main.5c9a0eb7.js.map",
     "453.bee9c111.chunk.js.map": "/Readwise-Report/static/js/453.bee9c111.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.54fefaf6.css",
-    "static/js/main.72b14d84.js"
+    "static/css/main.495ff66c.css",
+    "static/js/main.5c9a0eb7.js"
   ]
 }
