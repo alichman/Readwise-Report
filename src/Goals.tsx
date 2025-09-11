@@ -126,7 +126,7 @@ const GoalsWT3 = () => (
         <div className="HeadText">
             <h1>My Goals</h1>
             <p>
-                bazinga
+                A reflection of my continued development at Readwise.
             </p>
         </div>
         <div className="FlexListGoals">
@@ -134,35 +134,61 @@ const GoalsWT3 = () => (
                 <h1>Teamwork</h1>
                 <h2>Working with non-developer teams</h2>
                 <p>
-
+                    During my previous work terms, the majority of my work was done either independently or while pairing with another developer.
+                    While I did interact with other teams, it was always in brief question-answer interactions. This work term, I aimed to complete a project
+                    while directly cooperating with another team.<br/><br/>
+                    I succeeded in this initial goal quite early on in this term, as mentioned in the Role section - I paired multiple times with the graphic design team,
+                    creating new features and pages throughout the length of my term. However, I additionally worked with the quality assurance team to expand the capabilities of our admin page.<br/>
+                    Previously, if a user wanted to un-delete a document, a developer with access to the production shell would have to be contacted. At one point, a quality assurance member reached out
+                    to the developers, asking for a simpler way to undelete documents, and I happened to have a moment to work on it. After a bit of back and forth, we determined the requirements and I developed
+                    a simple way to restore documents, as well as the associated highlights and notes that may have been deleted at the same time.
                 </p>
             </div>
             <div>
                 <h1>Technological Literacy</h1>
                 <h2>Gain a better understanding of backend database work</h2>
                 <p>
-
+                    As a mostly front-end developer, I spent very little time working in the backend of the company code. Server logic has always interested me, and I did complete a few backend projects in the past,
+                    they never involved any database work. This is why for the summer 2025 term, I resolved to immerse myself in our database, now that so much work was being done to it to accommodate the new app. <br/><br/>
+                    My first step into the database code was a side project of a sort - I was to make a functional front end for a feature that didnt have all the data I wanted from the server. So, I took it upon myself to
+                    throw in a simple change to the serializer that would allow for what I needed. Now quite database yet, but it was a good step forward! I continued on in this manner, slowly finding excuses to explore the backend code.
+                    Soon enough, I was creating new models and expanding old ones, creating both the front and back end portions of features. This choice to explore a new field gained me a new level of independence within the company.
                 </p>
             </div>
             <div>
                 <h1>Visual Literacy</h1>
                 <h2>Gain a greater insight into graphic design</h2>
                 <p>
-
+                    One large bit of critique I've received over my previous terms at Readwise was my occasional inability to notice very clear flaws in design. I would fail to consider certain cases, misalign elements, and otherwise
+                    create imperfect displays. Additionally, any time I'd create a feature that didn't have a dedicated screen, I realized that my on-the-spot graphic design skills were far from optimal. This is why I was commited to
+                    improving myself in this regard through immersion.<br/><br/> As mentioned multiple times already. Bookwise was in very early stages of development when I rejoined the company. There was therefore an abundance of
+                    opportunities for me to get started on my goal. Of course, I was still not great in the beginning, failing to notice obvious flaws. However, the more I received feedback, the more keenly I observed my final products.
+                    <br/><br/>This, on top of my previously mentioned close partnership with the graphics design team gained me an insight in the company's design logic and processes. I practiced improvised design by developing new features
+                    with more thought-through designs before presenting them to the graphic designers / the company, whereas previously I would have created a very rudimentary proof of concept before attempting to make it look presentable.
+                    As with the previous goal, the ability to handle more on my own gained me more independence, which in turn allowed for me to develop features faster, without being blocked on anyone for long.
                 </p>
             </div>
             <div>
                 <h1>Organization</h1>
                 <h2>Produce well tested and reliable code</h2>
                 <p>
-
+                    As mentioned in the previous goal, much of my feedback from previous terms involved attention to detail. This was not limited to the graphic side of things, as I had introduced a notable amount of bugs in the apps.
+                    It was clear that if anything needed to be improved in my work, it was my thoroughness and debugging skills.<br/><br/>
+                    Returning to the company and having to go right into things, I was immediately reminded of this feedback I've received. Many bugs were pushed to production in my first weeks, and many more were caught.
+                    However, after this brief period, I slowly began to catch myself making mistakes both as they happened, and in my reviews. By catching my mistakes earlier and more frequently, I began to produce code
+                    that was generally more correct and safe, and was significantly more reliable to what I had previously written.
                 </p>
             </div>
             <div>
                 <h1>Initiative</h1>
                 <h2>Introduce and develop personal projects</h2>
                 <p>
-
+                    During my last few weeks of the fall 2024 term, I worked on a personal project that evolved from a hackathon. Working on something that was not assigned to me, but instead came from my imagination of what the apps could be,
+                    was a very rewarding feeling. So, as I was returning to readwise, I aimed to implement a few more personal projects.<br/><br/>
+                    One notable example of such projects was mentioned above - the leaderboard badges. Having relayed my friend's suggestion, I was quickly approved to work on the badge system. Though it wasn't the most lengthy project, it was exciting
+                    to work on all the same. On top of this, I would very often offer additional features while working on already planned ones. For example, the ability to add photos as comments was a snowball effect of profile pictures, though it quickly
+                    became its own complex project with much design work going into it.<br/><br/>I am very glad to see the work I have done upon my own initiative go appreciated by users. It is always fun to use the apps now and notice things that would
+                    not have been there, had I not chosen to take action on random ideas that popped in my head.
                 </p>
             </div>
         </div>

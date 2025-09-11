@@ -8,7 +8,7 @@ export const Culture = () => {
             <h1>Readwise Culture</h1>
             <p>
                 I joined Readwise for the amazing learning opportunity.<br/>
-                I'm stayed for another 4 months for the people.<br/><br/>
+                I stayed for another 4 months for the people, and later returned for a third term in summer 2025<br/><br/>
                 Right from my onboarding, the feeling between myself and my managers hadn't
                 that of professional duty, but of a personal apprenticeship.<br/><br/> On my first day, my direct
                 manager Artem tested my skills by having me solve a simple glitch on my very first day,
